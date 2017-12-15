@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Page Title</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- phần header -->
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row py-2">
+                <!-- logo -->
+                <div class="col-md-4 col-lg-6 pl-lg-5 d-none d-sm-none d-md-block pt-3">
+                    <a href="#">
+                        <img src="images/logo.png" style="width:150px" alt="logo">                  
+                    </a>
+                </div>
+                <!-- login/logout -->
+                <div class="col-md-8 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-9 pt-3">
+                            <div class="row">
+                                <ul class="nav mx-auto pb-2">
+                                    <li class="nav-item">
+                                        <a class="nav-link py-0 px-1 px-sm-2" href="#"><i class="fa fa-phone" aria-hidden="true"></i> 01683578718</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link py-0 px-1 px-sm-2 text-uppercase" href="#">đăng ký</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link py-0 px-1 px-sm-2 text-uppercase" href="#">đăng nhập</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-1">
+                                <p class="mx-auto">Ship Free <span class="text-success text text-uppercase">đơn hàng trên 500k</span></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pt-3 text-center">
+                            <button type="button" class="btn bg-white p-3 border">
+                                <i class="text-success fa fa-shopping-basket fa-2x" aria-hidden="true"></i>
+                                <span class="badge badge-danger">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- phần navigator -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+        <div class="container">
+            <a class="navbar-brand d-sm-block d-md-none" href="#">
+                <img src="images/logo.png" style="width: 69px;" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link text-uppercase" href="#">trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link text-uppercase" href="#">giới thiệu</a>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                        <a class="nav-link text-uppercase dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                            sản phẩm
+                        </a>
+                        <div class="dropdown-menu rounded-0 my-2">
+                            <a class="dropdown-item text-uppercase" href="#">sản phẩm 1</a>
+                            <a class="dropdown-item text-uppercase" href="#">sản phẩm 2</a>
+                            <a class="dropdown-item text-uppercase" href="#">sản phẩm 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link text-uppercase" href="#">tin tức</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link text-uppercase" href="#">đối tác</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link text-uppercase" href="#">liên hệ</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--  hết phần navigator -->
+    <!-- phần carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/slideshow_1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="mb-lg-5 mb-md-4">Rau củ quả</p>
+                    <h3 class="text-uppercase mb-lg-5 mb-md-4">Tươi ngon mỗi ngày</h3>
+                    <button type="button" class="btn btn-outline-light rounded-0 mb-lg-5 mb-md-4">View detail</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/slideshow_2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="mb-lg-5 mb-md-4">Thực phẩm an toàn</p>
+                    <h3 class="text-uppercase mb-lg-5 mb-md-4">Đảm bảo sức khỏe</h3>
+                    <button type="button" class="btn btn-outline-light rounded-0 mb-lg-5 mb-md-4">View detail</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/slideshow_3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="mb-lg-5 mb-md-4">Tháng vàng ưu đãi</p>
+                    <h3 class="text-uppercase mb-lg-5 mb-md-4">Tiết kiệm đến 20%</h3>
+                    <button type="button" class="btn btn-outline-light rounded-0 mb-lg-5 mb-md-4">View detail</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- hết phần carousel -->
+
+    <!-- phần section -->
+    <section class="container-fluid py-4">
+        <!-- phần policy (chính sách) -->
+        <div class="container mb-3">
+            <div class="row p-0">
+                <div class="col-md-4 pl-md-0 pr-md-2 px-0">
+                    <div class="policy-item bg-white py-4 border">
+                        <h4 class="text-uppercase text-center"><i class="fa fa-plane" aria-hidden="true"></i> Free Ship</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 px-md-1 px-0">
+                    <div class="policy-item bg-white py-4 border">
+                        <h4 class="text-uppercase text-center"><i class="fa fa-headphones" aria-hidden="true"></i> Hỗ trợ 24/7</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 pl-md-0 pl-md-2 px-0">
+                    <div class="policy-item bg-white py-4 border">
+                        <h4 class="text-uppercase text-center"><i class="fa fa-refresh" aria-hidden="true"></i> Hoàn tiền 100%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-white mb-4">
+            <div class="row p-3">
+                <h3 class="col-md-6 text-center text-md-left">Sản phẩm nổi bật</h3>
+                <div class="ml-auto d-none d-md-block">
+                    <button type="button" class="btn btn-light btn-sm"><i class="fa fa-caret-square-o-left" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-light btn-sm"><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="col-12 border"></div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dau_halan_trai_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Đậu Hà Lan</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dau_halan_trai_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Đậu Hà Lan</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dau_halan_trai_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Đậu Hà Lan</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dau_halan_trai_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Đậu Hà Lan</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-white">
+            <div class="row p-3">
+                <h3 class="col-md-6 text-center text-md-left">Sản phẩm khuyến mại</h3>
+                <div class="ml-auto d-none d-md-block">
+                    <button type="button" class="btn btn-light btn-sm"><i class="fa fa-caret-square-o-left" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-light btn-sm"><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="col-12 border"></div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dua_chuot_qua_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Dưa Chuột Sạch</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left" style="text-decoration: line-through;">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <p class="ml-2 float-left">
+                                10.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dua_chuot_qua_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Dưa Chuột Sạch</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dua_chuot_qua_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Dưa Chuột Sạch</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card rounded-0 border-0 product-item">
+                        <div class="product-item-content">
+                        <img class="card-img-top rounded-0 product-image-tem" src="images/dua_chuot_qua_master.jpg" alt="Card image cap">
+                        <h4 class="card-title">Dưa Chuột Sạch</h4>
+                        <div class="xanh"></div>
+                        <div class="trang"></div>
+                        </div>
+                        <div class="card-body p-2">
+                            <p class="mb-0 float-left">
+                                20.000 <small><span class="align-text-bottom">đ</span></small>
+                            </p>
+                            <button type="button" class="btn btn-light mb-0 float-right"><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Fluid jumbotron</h1>
+    <p class="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+    </section>
+    <!-- hết phần section -->
+
+    <!-- phần footer -->
+    <footer class="container-fluid pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-2">
+                    <h4 class="text-uppercase mb-4">giới thiệu</h4>
+                    <p>Organics Star - thật & chất là mục tiêu mà chúng tôi hướng tới. Được thành lập và xây dựng từ những người trẻ tuổi. Mong muốn đem tới những giá trị thực, những thực phẩm sạch và hướng tới là những sản phẩm hữu cơ. Khẳng định mang tới cho khách hàng những sản phẩm chất lượng, đúng với giá trị của sản phẩm.</p>
+                    <p><i class="fa fa-home" aria-hidden="true"></i> Số 11 ngách 1 ngõ 55 Huỳnh Thúc Kháng, Láng Hạ, Đống Đa, Hà Nội</p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i> sale.organicfoods@gmail.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> 0936 36 30 31</p>
+                    <p><i class="fa fa-print" aria-hidden="true"></i> +84 936 36 30 31</p>
+                </div>
+                <div class="col-md-6 col-lg-2 mb-2">
+                    <h4 class="text-uppercase mb-4">hỗ trợ khách hàng</h4>
+                    <p>Chính sách chung</p>
+                    <p>Chính sách thanh toán</p>
+                    <p>Chính sách vẫn chuyển</p>
+                    <p>Chính sách đổi trả</p>
+                    <p>Chính sách bảo mật</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-2">
+                    <h4 class="text-uppercase mb-4">đăng kí nhận tin</h4>
+                    <div class="input-group input-group-sm mb-2">
+                        <input type="text" class="form-control border-0 rounded-0" placeholder="Nhập email của bạn">
+                        <span class="input-group-addon border-top-0 border-left-0 border-right-0 rounded-0 border-white bg-white" id="sizing-addon2"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
+                    </div>
+                    <p>Hãy nhập email của bạn vào đây</p>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link p-0 mr-2"><span class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link p-0 mr-2"><span class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link p-0 mr-2"><span class="social-icon"><i class="fa fa-youtube" aria-hidden="true"></i></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link p-0 mr-2"><span class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-2">
+                    <h4 class="text-uppercase mb-4">
+                        kết nối với chúng tôi
+                    </h4>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright row">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-1 text-light">
+                        <marquee width="90%">Copyright &copy; 2017 Project nhóm 3 Aptech Hà Nội</marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- hết phần footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src='js/bootstrap.min.js'></script>
+</body>
+
+</html>
